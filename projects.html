@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon"
+    type="image/png"
+    href="website_images/favicon.png" />
+  <meta charset="utf-8">
+  <title>Mihir Ojha</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Prata&display=swap" rel="stylesheet">
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MLPJCVN');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLPJCVN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</head>
+  <body>
+    <nav>
+      <div id="navbar" class="navbar">
+        <!-- <ul class="navbar"> -->
+        <li><a href="https://mihirojha.github.io/">home.</a></li>
+        <li><a href="https://mihirojha.github.io/projects">projects.</a></li>
+        <li><a href="https://mihirojha.github.io#experience">experiences.</a></li>
+        <li><a href="https://mihirojha.github.io/aboutme">about me.</a></li>
+        <li><a href="https://mihirojha.github.io#contact">contact.</a></li>
+        <li><a href="resume/Mihir_Ojha_Resume_2023.pdf" target="_blank">resume.</a></li>
+      <!--  </ul> -->
+      </div>
+    </nav>
+    <main class="container">
+      <!-- Personal Projects -->
+      <section class="personal-projects">
+        <h2 id="personal_projects">Personal Projects</h2>
+          <p class="project-text">This portfolio is a collection of notebooks that I have worked on throughout my data science journey. It contains projects of topics that interest me. I wish to continually add my personal and professional projects. (Still on the quest of landing my first job as a data scientist)
+          </p>
+
+            <h3 id="classification">Basic churn prediction using EDA and Classification algorithms.</h3>
+            <a class="project-link" href="https://github.com/MihirOjha/Telecom_churn_prediction/blob/master/Telcom_Churn_Prediction.ipynb" target="_blank">jupyter</a>
+            <a class="project-link" href="https://churn-b-gone.up.railway.app/" target="_blank">webapp</a>
+            <div class="wrapingimage">
+              <a href="https://github.com/MihirOjha/Telecom_churn_prediction/blob/master/Telcom_Churn_Prediction.ipynb" target="_blank">
+              <img class="square-gif" src="website_images/customer_talking_phone.jpeg"  alt="classification"/>
+              </a>
+            </div>
+            <p class="project-text">Customer churn is always a top priority of any subscription-based company. Ideally, churn should be 0.00% but that's only if we lived in an ideal world where unicorns existed. However, in reality, churn should be as low as possible because it costs more to acquire new customers than it is to retain existing customers. 
+              This can be especially problematic for businesses that rely on a steady stream of new customers to keep their revenue stream flowing. So it becomes really important for companies to maintain a loyal customer base and simultaneously determine the factors that affect the customer experience resulting in them churning.
+              Having that information can help a company make data-driven decisions to keep the churn rate minimal. High rates of churn can be a indicator that there are problems with the company's products or services, which can be addressed through targeted improvements.<a class="link" href="https://github.com/MihirOjha/Telecom_churn_prediction/blob/master/Telcom_Churn_Prediction.ipynb" target="_blank">This project</a> tries to determine the factors that affect churn. 
+              It involves predicting whether a customer is likely to switch to a different service provider. Classification algorithms, such as random forest, K-nearest neighbor, logistic regression, and support vector machines can be used to predict telecom churn. You can also try the <a class="link" href="https://churn-b-gone.up.railway.app/" target="_blank">webapp </a> and input custom values to find if the customer will churn or not.
+            </p>
+
+
+            <h3>Creating multiple playlists using K-Means Clustering, Spotipy, and Plotly.</h3>
+            <a class="project-link" href="https://nbviewer.org/github/MihirOjha/Spotify_playlists_Kmeans_clustering/blob/master/Spotify_clustering.ipynb" target="_blank">nbviewer</a>
+            <div class="wrapingimage">
+              <a href="https://nbviewer.org/github/MihirOjha/Spotify_playlists_Kmeans_clustering/blob/master/Spotify_clustering.ipynb" target="_blank">
+              <img class="square-gif" src="website_images/3d_song_clusters_gif.gif" alt="spotify cluster"/>
+              </a>
+            </div>
+            <p class="project-text">Spotify is a digital music, podcast, and video streaming service that was launched in 2006. It allows users to browse and stream a wide variety of music, podcasts, and other audio content, as well as create and share playlists. Spotify is available in more than 92 countries and has over 345 million active users, making it one of the most popular streaming services in the world. These days, Spotify and music have become synonymous. 
+              I use Spotify daily and I feel their recommendation algorithm is a cut above the other music streaming service given their price point of just $10 a month (having tried Apple music, amazon prime unlimited). I always wondered how did they make such accurate recommendations given my streaming behavior. I wanted to tackle this from a data science perspective, so I set out to create some playlists for myself. <a class="link" href="https://nbviewer.org/github/MihirOjha/Spotify_playlists_Kmeans_clustering/blob/master/Spotify_clustering.ipynb" target="_blank">This project</a> uses Spotipy, Spotify’s API, to access the top 1000 songs from 2017 to 2022. 
+              It takes a detailed look into how a track's audio features impact how they are grouped. The project utilizes PCA to reduce the dimensions of the audio feature list before running a K-Means model to classify and create a custom playlist from the most played tracks. You can access the playlists here: 
+              
+              <div style="display: flex;">
+                <ul style="list-style: none; margin: 0px; padding: 35px;">
+                  <li style="padding-bottom: 10px;"><a class="project-link" href="https://open.spotify.com/playlist/6dXYMxKNRVMjhGfBP0Ozqz?si=ZzyuRVXbSsqGFQR-Sv9MhQ" target="_blank">Playlist 1</a></li>
+                  <li style="padding-bottom: 10px;"><a class="project-link" href="https://open.spotify.com/playlist/6HnWhnb0FvyPlNmvqzb5LH?si=Rs0Du3g0R4OK3zt7IRy-rg" target="_blank">Playlist 2</a></li>
+                  <li style="padding-bottom: 10px;"><a class="project-link" href="https://open.spotify.com/playlist/4wgKjCG4aMNHnefcjONM4d?si=ET_HgwwZQgm70_EZ7AbNLA" target="_blank">Playlist 3</a></li>
+                  <li style="padding-bottom: 10px;"><a class="project-link" href="https://open.spotify.com/playlist/3DlUJF8ElqfJIzDi7OAoq0?si=SLOKBcPqSeq22v-LDm7o6w" target="_blank">Playlist 4</a></li>
+                </ul>
+                <ul style="list-style: none; margin: 0px; padding: 35px;">
+                  <li style="padding-bottom: 10px;"><a class="project-link" href="https://open.spotify.com/playlist/4pE1V5QCzjLx6iYp9iFpT8?si=GOwmiuQIRXeo9XUhtEY6oQ" target="_blank">Playlist 5</a></li>
+                  <li style="padding-bottom: 10px;"><a class="project-link" href="https://open.spotify.com/playlist/5EHYk25xdHNpmHwOtZ9HcH?si=k1ODJ2y_Qo-Oejw3-HMbaQ" target="_blank">Playlist 6</a></li>
+                  <li style="padding-bottom: 10px;"><a class="project-link" href="https://open.spotify.com/playlist/5HbbTirH7tGcQj74k9pIWP?si=p4f-Z4RQRmuOrrwYC9GxJA" target="_blank">Playlist 7</a></li>
+                  <li style="padding-bottom: 10px;"><a class="project-link" href="https://open.spotify.com/playlist/1b6JruxFn9libEVUDkCA2D?si=sYw26C6OTrm9kV5qIr3eew" target="_blank">Playlist 8</a></li>
+                </ul>
+                <ul style="list-style: none; margin: 0px; padding: 35px;">
+                  <li style="padding-bottom: 10px;"><a class="project-link" href="https://open.spotify.com/playlist/5WUyXJdeUe1qOOfzH3N1UL?si=tK_B5oENReaOoc134tQsOg" target="_blank">Playlist 9</a></li>
+                  <li style="padding-bottom: 10px;"><a class="project-link" href="https://open.spotify.com/playlist/2bKcCO1jSYve0ed0wunbri?si=v-zflKqvSGSir4R_uG-DPg" target="_blank">Playlist 10</a></li>
+                  <li style="padding-bottom: 10px;"><a class="project-link" href="https://open.spotify.com/playlist/2jtahNhfBTJ3Hkw3zAcGx5?si=QFLpctqdQgWfov4p4wL_Cw" target="_blank">Playlist 11</a></li>
+                </ul>
+              </div>
+            </p>
+
+
+            <h3>Classifying racist and homophobic tweets.</h3>
+            <a class="project-link" href="https://nbviewer.org/github/MihirOjha/Hate_speech_classification_nlp/blob/master/.ipynb_checkpoints/Hate_Tweet_Detection_NLP-checkpoint.ipynb" target="_blank">nbviewer</a>
+            <a class="project-link" href="https://tweet-watch.herokuapp.com/" target="_blank">webapp</a>
+            <div class="wrapingimage">
+              <a href="https://nbviewer.org/github/MihirOjha/Hate_speech_classification_nlp/blob/master/.ipynb_checkpoints/Hate_Tweet_Detection_NLP-checkpoint.ipynb" target="_blank">
+              <img class="square-gif" src="website_images/love_wall.jpeg" alt="love wall"/>
+              </a>
+            </div>
+            <p class="project-text">Twitter is a social media platform that allows users to send and read short messages called "tweets." Tweets are limited to 280 characters or less and can include text, images, and links to other websites. Twitter was founded in 2006 and has since become a popular platform for celebrities, politicians, journalists, and other public figures to share their thoughts and updates with their followers. Twitter has millions of active users and is available in more than 40 languages. With such an active user base using the platform to share their opinion, it can be an arduous task to moderate tweets. One such difficulty for twitter is to flag hate tweets. Hate speech is any speech, conduct, writing, or expression that may incite violence or prejudicial action against or by a particular individual or group, or because it disparages or intimidates a particular individual or group. It is generally considered to be harmful and unacceptable, as it can contribute to a culture of intolerance and discrimination. In many countries, hate speech is regulated by law and may be punishable by fines or imprisonment.
+              However, the definition of hate speech can vary and is often a subject of debate, as it can be difficult to draw a line between protected free speech and harmful expression. Hate speech detection is important for Twitter because it can help the platform create a safer and more inclusive environment for its users. Hate speech can cause harm to individuals and groups who are targeted, and can also contribute to a culture of intolerance and discrimination. By detecting and removing hate speech, Twitter can help to protect its users from this kind of content and create a more positive and welcoming atmosphere. Additionally, detecting and addressing hate speech can be important for Twitter from a business perspective, as it can help to maintain the platform's reputation and user trust. In recent years, there has been increased pressure on social media platforms to take action against hate speech and other forms of harmful content, and Twitter has implemented several policies and tools to help identify and address this type of content on its platform.
+              <a class="link" href="https://nbviewer.org/github/MihirOjha/Hate_speech_classification_nlp/blob/master/.ipynb_checkpoints/Hate_Tweet_Detection_NLP-checkpoint.ipynb" target="_blank">This project</a> is like a tip of the tip of the tip of the iceberg (yes, I typed it 3 times.). The project utilizes Natural language processing (NLP), which is a field of artificial intelligence that focuses on the interaction between computers and humans through the use of natural language. It involves developing algorithms and models that can understand, interpret, and generate human language. NLP can be used to classify hateful or abusive tweets as part of an effort to combat hate speech on social media platforms. This is still a complex task because labeling tweets as hateful or not is also a big pandora’s box. However, I took a very simple approach which involved cleaning and formatting the raw text data to make it more suitable for analysis. This included tokenization (splitting the text into individual words or symbols), stemming (reducing words to their base form), and removing stop words (common words that do not convey meaning). I classified tweets that either racist or homophobic. I also created a <a class="link" href="https://tweet-watch.herokuapp.com/" target="_blank">webapp</a> where you can type in a tweet and find out if that tweet is a hate tweet or not. Imagine a much more advanced version of the app that can help serve as a guiding light on hate speech.
+
+            <br><br>
+            <a class="back-to-top" href="#personal_projects">Back to Top</a>
+          <br><br>
+        </main>
+        <footer>
+            <div>
+              <div class="container-footer">
+                  <div class="social_img"><a href="https://github.com/MihirOjha" target="_blank"><img src="website_images/github_l.png"></a></div>
+                  <div class="social_img"><a href="mailto:mihir.ojhaa@gmail.com" target="_blank"><img src="website_images/gmail_l.png"></a></div>
+                  <div class="social_img"><a href="https://www.linkedin.com/in/mihir-ojha-858a3b159/"target="_blank"><img src="website_images/linkedin_l.png"></a></div>
+              </div>
+            <p>Data science portfolio of Mihir Ojha 2023</p>
+              </div>
+        </footer>
+        <!-- Start Navigation Bar Animation -->
+        <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
+        <!-- End Navigation Bar Animation -->
+      </body>
+      </html>
